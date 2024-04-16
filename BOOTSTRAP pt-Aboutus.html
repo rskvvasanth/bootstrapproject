@@ -10,16 +10,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-.fa-check-circle-o{
+.fa-twitter{
 text-decoration:none;
-color:#1ec73d;
-font-size:25px;
+color:#92cac3;
+padding:4px;
+font-size:23px;
 }
-</style>
-</head>
-<body>
-  <div style="width:100%;height:600px;">
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#02332a;padding:1px;">
+.fa-twitter:hover{
+color:#448072;
+}
+.fa-facebook{
+text-decoration:none;
+background-color:#92cac3;
+color:white;
+padding:3px;
+font-size:18px;
+width:30px;
+border-radius:18px;
+}
+.fa-facebook:hover{
+color:white;
+background-color:#448072;
+}
+.fa-instagram{
+text-decoration:none;
+color:#92cac3;
+padding:4px;
+font-size:23px;
+}
+.fa-instagram:hover{
+color:#448072;
+}
+.fa-linkedin{
+text-decoration:none;
+background-color:#92cac3;
+color:white;
+padding:3px;
+font-size:18px;
+}
+.fa-linkedin:hover{
+color:white;
+background-color:#448072;
+}
+
+.card{
+box-shadow:0px 5px 15px #f0f5f1;
+}
+
+  </style>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#02332a;padding:1px;">
 <div class="container-fluid">
 <a class="navbar-brand" style="margin-left:80px;font-size:35px;" href="#">Amoeba</a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ne1">
@@ -30,13 +71,13 @@ font-size:25px;
 <li class="nav-item">
    <a class="nav-link" href="BOOTSTRAP pt-Home.html">Home</a></li>
 <li class="nav-item">
-   <a class="nav-link active" href="BOOTSTRAP pt-Aboutus.html">About Us</a></li>
+   <a class="nav-link" href="BOOTSTRAP pt-Aboutus.html">About Us</a></li>
 <li class="nav-item">
    <a class="nav-link" href="BOOTSTRAP pt-Services.html">Services</a></li>
 <li class="nav-item">
    <a class="nav-link" href="BOOTSTRAP pt-Portfolio.html">Portfolio</a></li>
 <li class="nav-item">
-   <a class="nav-link" href="BOOTSTRAP pt-Team.html">Team</a></li>
+   <a class="nav-link active" href="BOOTSTRAP pt-Team.html">Team</a></li>
 <li class="nav-item dropdown">
    <a class="nav-link dropdown toggle" data-bs-toggle="dropdown" role="button" href="">Dropdown</a>
    <ul class="dropdown-menu">
@@ -51,40 +92,64 @@ font-size:25px;
    </ul>
    </div>
 </nav>
-<div class="container">
-<div class="row">
-<p style="text-align:center;margin-top:150px;font-size:35px;color:#666966;" >About Us</p>
-<div class="col mt-5">
-<p class="h4" style="color:#666966" >Voluptatem dignissimos provident quasi<br>
-corporis voluptates sit assumenda.</p>
-<p><i style="color:#666966;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</i></p>
 
-<p class="fa fa-check-circle-o" ><span style="color:#666966;font-size:18px;">
-    Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p><br>
+<div style="margin-top:150px;text-align:center;">
+<p style="font-size:35px;">Our Team</p>
+<p style="color:#666966;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+ Sit sint consectetur velit. Quisquam quos quisquam<br> cupiditate.
+ Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+ </div>
+<div style="height:500px;">
+ <div class="container mt-5">
+<div class="card" style="width:360px;text-align:center;background-color:#FFFFFF;box-shadow:0px 5px 15px #dfe6e5;border:none;float:right;margin-left:10px;">
+  <img src="img/team-1.jpg" alt="card image" class="rounded-circle" width="150px" height="150px" style="margin-left:110px;margin-top:20px;">
+  <div class="card-body" style="color:#666966;">
+  <h5 class="card-title">William Anderson</h5>
+<i class="card-title">CTO</i>
+<p class="card-text"><em style="font-size:15px;">Voluptas necessitatibus occaecati quia. Earum<br>
+ totam consequuntur qui porro et laborum toro des<br>
+ clara</em></p>
+ <a class="fa fa-twitter" href=""></a>
+ <a class="fa fa-facebook" href=""></a>
+ <a class="fa fa-instagram" href=""></a>
+ <a class="fa fa-linkedin" href=""></a>
+</div>
+</div>
 
- <p class="fa fa-check-circle-o" ><span style="color:#666966;font-size:18px;">
-      Duis aute irure dolor in reprehenderit in voluptate velit.</span></p><br>
+<div class="card" style="width:360px;text-align:center;background-color:#FFFFFF;box-shadow:0px 5px 15px #dfe6e5;border:none;float:right;">
+  <img src="img/team-2.jpg" alt="card image" class="rounded-circle" width="150px" height="150px" style="margin-left:110px;margin-top:20px;">
+  <div class="card-body" style="color:#666966;">
+  <h5 class="card-title">Sarah Jhinson</h5>
+<i class="card-title">Product Manager</i>
+<p class="card-text"><em style="font-size:15px;">Repellat fugiat adipisci nemo illum nesciunt<br>
+ voluptas repellendus. In architecto rerum<br> rerum temporibus
+ </em></p>
+ <a class="fa fa-twitter" href=""></a>
+ <a class="fa fa-facebook" href=""></a>
+ <a class="fa fa-instagram" href=""></a>
+ <a class="fa fa-linkedin" href=""></a>
+</div>
+</div>
 
-<p class="fa fa-check-circle-o" ><span style="color:#666966;font-size:18px;">
-  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute<br>
-  irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro<br>
-  dolore eu fugiat nulla pariatur.</span></p><br>
-  
-<p style="color:#666966;font-size:16.5px;">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure<br>
-  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br>
-  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa<br>
-  qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="col mt-5">
-  <img src="images/about-img.jpg" alt="about img" width="550px" height="410px"></div>
+<div class="card" style="width:360px;text-align:center;background-color:#FFFFFF;box-shadow:0px 5px 15px #dfe6e5;border:none;float:right;margin-right:10px;">
+  <img src="img/team-1.jpg" alt="card image" class="rounded-circle" width="150px" height="150px" style="margin-left:110px;margin-top:20px;">
+  <div class="card-body" style="color:#666966;">
+  <h5 class="card-title">Walter White</h5>
+<i class="card-title">Chief Executive Officer</i>
+<p class="card-text"><em style="font-size:15px;">Magni qui quod omnis unde et eos fuga et<br>
+ exercitationem. Odio veritatis perspiciatis quaerat<br>
+ qui aut aut aut</em></p>
+ <a class="fa fa-twitter" href=""></a>
+ <a class="fa fa-facebook" href=""></a>
+ <a class="fa fa-instagram" href=""></a>
+ <a class="fa fa-linkedin" href=""></a>
 </div>
 </div>
 </div>
-<div style="background-color:#02261a;margin-top:220px;height:100px;text-align:center;padding-top:15px;">
+</div>
+<div style="background-color:#02261a;height:100px;text-align:center;padding-top:15px;">
 <p class="text-white">© Copyright <b>Amoeba.</b> All Rights Reserved</p>
 <p class="text-white">Designed by <span style="color:#089968;cursor:pointer;">BootstrapMade</span></p>
 </div>
 </body>
 </html>
-  
